@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jeancss01.dscustom.DsCustomButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        app:ds_backgroundColor="#ec9e14"
+        app:ds_borderWidth="2dp"
+        app:ds_text="Button Primary"
+        app:ds_textColor="@color/black"
+        app:ds_textSize="16sp"
+        app:ds_textStyle="bold"
+        app:ds_radius="4dp"/>
+
+    <com.jeancss01.dscustom.DsCustomButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        app:ds_backgroundColor="#ec9e14"
+        app:ds_borderWidth="3dp"
+        app:ds_text="Button Primary"
+        app:ds_textStyle="bold"
+        app:ds_textSize="16sp"
+        app:ds_textColor="@color/black"
+        app:ds_radius="4dp"
+        app:ds_disableColor="@color/gray"
+        app:ds_enabled="false"/>
+
+    <com.jeancss01.dscustom.DsCustomButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        app:ds_backgroundColor="#ec9e14"
+        app:ds_borderWidth="2dp"
+        app:ds_text="Button Primary"
+        app:ds_drawableResource="@drawable/ic_baseline_block_24"
+        app:ds_textColor="@color/black"
+        app:ds_textSize="16sp"
+        app:ds_textStyle="bold"
+        app:ds_radius="4dp"/>
+
+    <com.jeancss01.dscustom.DsCustomButton
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        app:ds_backgroundColor="#ec9e14"
+        app:ds_borderWidth="2dp"
+        app:ds_text="Button Primary"
+        app:ds_drawableResource="@drawable/ic_baseline_block_24"
+        app:ds_textColor="@color/black"
+        app:ds_textSize="16sp"
+        app:ds_textStyle="bold"
+        app:ds_radius="4dp"
+        app:ds_enabled="false"/>
+
+    <com.jeancss01.dscustom.DsCustomLoadingButton
+        android:id="@+id/loadingButton"
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Button Primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:textAllCaps="false"
+        app:lb_buttonColor="@color/yelow_custom"
+        app:lb_isShadowEnable="false"
+        app:lb_isCircular="false"
+        app:lb_cornerRadius="4sp"
+        app:lb_loaderColor="@color/black"
+        app:lb_loaderWidth="2sp"
+        app:lb_loaderMargin="10dp"/>
+
+    <com.jeancss01.dscustom.DsCustomLoadingButton
+        android:id="@+id/loadingButton2"
+        android:layout_width="match_parent"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Button Primary"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        app:lb_buttonColor="@color/unpressed_color"
+        app:lb_isShadowEnable="false"
+        app:lb_isCircular="false"
+        app:lb_cornerRadius="4sp"
+        app:lb_loaderColor="@color/white"
+        app:lb_loaderWidth="2sp"
+        app:lb_loaderMargin="10dp"
+        app:lb_drawableIconStart="@drawable/ic_baseline_block_24"
+        android:enabled="true"/>
+
+</LinearLayout>
+
+</LinearLayout>

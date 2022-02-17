@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ProgressButton">
+        <attr name="text" format="string"/>
+        <attr name="loading" format="boolean"/>
+        <attr name="enabled" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="lb_buttonColor" format="color" />
+        <attr name="lb_loaderColor" format="color" />
+        <attr name="lb_shadowColor" format="color" />
+        <attr name="lb_cornerRadius" format="dimension" />
+        <attr name="lb_shadowHeight" format="dimension" />
+        <attr name="lb_loaderWidth" format="dimension" />
+        <attr name="lb_loaderMargin" format="dimension" />
+        <attr name="lb_isShadowEnable" format="boolean" />
+        <attr name="lb_isCircular" format="boolean" />
+        <attr name="lb_isLoading" format="boolean" />
+        <attr name="lb_drawableIconStart" format="reference" />
+
+    </declare-styleable>
+
+    <attr name="ds_borderWidth" format="dimension"/>
+    <attr name="ds_borderColor" format="color"/>
+    <attr name="ds_radius" format="dimension"/>
+    <attr name="ds_backgroundColor" format="color"/>
+    <attr name="ds_disableColor" format="color"/>
+    <attr name="ds_focusColor" format="color"/>
+    <attr name="ds_enabled" format="boolean"/>
+
+    <attr name="ds_shape" format="integer">
+        <flag name="rectangle" value="101"/>
+        <flag name="oval" value="102"/>
+    </attr>
+
+    <declare-styleable name="DsButton">
+        <attr name="ds_borderWidth"/>
+        <attr name="ds_borderColor"/>
+        <attr name="ds_radius"/>
+        <attr name="ds_backgroundColor"/>
+        <attr name="ds_disableColor"/>
+        <attr name="ds_focusColor"/>
+        <attr name="ds_enabled"/>
+        <attr name="ds_textColor" format="color"/>
+        <attr name="ds_disabledTextColor" format="color"/>
+        <attr name="ds_text" format="string"/>
+        <attr name="ds_textSize" format="dimension"/>
+        <attr name="ds_textAllCaps" format="reference|boolean"/>
+        <attr name="ds_textStyle" format="integer">
+            <flag name="normal" value="0"/>
+            <flag name="bold" value="1"/>
+            <flag name="italic" value="2"/>
+        </attr>
+        <attr name="ds_fontIcon" format="string"/>
+        <attr name="ds_iconSize" format="dimension"/>
+        <attr name="ds_iconColor" format="color"/>
+        <attr name="ds_iconPosition" format="enum">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+        <attr name="ds_drawableResource" format="reference"/>
+        <attr name="ds_iconPadding" format="dimension"/>
+        <attr name="ds_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="DsViewButton">
+        <attr name="ds_borderWidth"/>
+        <attr name="ds_borderColor"/>
+        <attr name="ds_radius"/>
+        <attr name="ds_backgroundColor"/>
+        <attr name="ds_disableColor"/>
+        <attr name="ds_focusColor"/>
+        <attr name="ds_shape"/>
+        <attr name="ds_enabled"/>
+    </declare-styleable>
+</resources>
